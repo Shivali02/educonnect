@@ -19,6 +19,19 @@ blockquote {
 @tailwind components;
 @tailwind utilities;
 
+#side1 {
+  width: 65%;
+  height: 100%;
+  background-image: url("/images/bg1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#side2 {
+  width: 35%;
+  height: 100%;
+}
+
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
