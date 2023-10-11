@@ -27,9 +27,35 @@ blockquote {
   background-repeat: no-repeat;
   background-position: center center;
 }
+#side1sign_up {
+  width: 35%;
+  height: 100%;
+  background-image: url("/images/bg1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 #side2 {
   width: 35%;
   height: 100%;
+}
+#side2sign_up {
+  width: 65%;
+  height: 100%;
+}
+
+.btn::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 100%;
+  background-color: slategray;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+.btn:hover::after {
+  transform: scaleX(1);
 }
 
 /* :root {

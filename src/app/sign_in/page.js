@@ -28,7 +28,7 @@ const Sign_up = () => {
               <select
                 name="login_as"
                 id="login_as"
-                className=" w-15 h-43 p-2 ml-5 text-center bg-slate-200 border-black"
+                className=" w-15 h-43 p-2 ml-5 text-center cursor-pointer bg-slate-200 border-black"
               >
                 <option value="student">student</option>
                 <option value="admin">admin</option>
